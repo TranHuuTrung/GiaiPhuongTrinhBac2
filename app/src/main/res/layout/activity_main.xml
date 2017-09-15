@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hệ Số a"
+            android:textColor="#997654"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_SoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hệ Số b"
+            android:textColor="#997654"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_SoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hệ Số c"
+            android:textColor="#997654"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/edt_SoC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_giai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Kết Quả"
+        android:background="@color/colorAccent"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <Button
+        android:id="@+id/btn_hoithoat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Exit"
+        android:background="@color/colorRed"/>
+
+
+</LinearLayout>
